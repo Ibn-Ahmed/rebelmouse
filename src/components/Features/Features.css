@@ -1,4 +1,4 @@
-.features-list li {
+.features-list a {
     font-weight: 500;
     line-height: 16px;
     font-size: 16px;
@@ -8,10 +8,8 @@
     cursor: pointer;
     list-style: none;
 }
-.active {
-    border: 1px solid #F20791;
-}
-.features-list > li:nth-child(1)::before {
+
+.active1:before{
     content: "";
   background-color: #F20791;
   font-weight: bold;
@@ -23,7 +21,7 @@
   vertical-align: middle;
 }
 
-.features-list > li:nth-child(2)::before {
+.active2:before{
     content: "";
   background-color: #014F93;
   font-weight: bold;
@@ -34,7 +32,7 @@
   margin-right: 5px;
   vertical-align: middle;
 }
-.features-list > li:nth-child(3)::before {
+.active3:before{
     content: "";
   background-color: #D38611;
   font-weight: bold;
@@ -45,7 +43,7 @@
   margin-right: 5px;
   vertical-align: middle;
 }
-.features-list > li:nth-child(4)::before {
+.active4:before{
     content: "";
   background-color: #20DB76;
   font-weight: bold;
@@ -56,7 +54,7 @@
   margin-right: 5px;
   vertical-align: middle;
 }
-.features-list > li:nth-child(5)::before {
+.active5:before{
     content: "";
   background-color: #DB204D;
   font-weight: bold;
@@ -67,7 +65,7 @@
   margin-right: 5px;
   vertical-align: middle;
 }
-.features-list > li:nth-child(6)::before {
+.active6:before{
     content: "";
   background-color: #2088DB;
   font-weight: bold;
@@ -78,7 +76,7 @@
   margin-right: 5px;
   vertical-align: middle;
 }
-.features-list > li:nth-child(7)::before {
+.active7:before{
     content: "";
   background-color: #6720DB;
   font-weight: bold;

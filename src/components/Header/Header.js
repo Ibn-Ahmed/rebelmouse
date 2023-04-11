@@ -24,7 +24,7 @@ function Header() {
   
   return (
    
-    <div className='w-full text-black bg-white shadow-md  lg:p-0 lg:flex  lg:items-center sticky top-0 lg:h-full'>
+    <div className='w-full text-black bg-white shadow-md  lg:p-0 lg:flex  lg:items-center sticky top-0 lg:h-full z-50'>
       
        <div onClick={toggleNav}  className='hidden lg:block cursor-pointer mx-2 text-[20px]'>
        {menuIcon ? (<AiOutlineMenu  />): <AiOutlineClose/>}
@@ -33,7 +33,7 @@ function Header() {
       <div className='max-w-[1240px] container flex  items-center mx-auto bg-fixed lg:mx-0 lg:justify-between lg:w-full lg:p-2 mlg:p-3' >
       <img className='object-contain w-[136px] ' src="https://www.rebelmouse.com/media-library/rebelmouse.png?id=27588908&width=282&height=74" alt="rebelmouse logo" />
 
-      <ul className='main-nav flex items-center text-[13px] ml-2 mr-[95px]  lg:block lg:text-white lg:bg-[#3490D9] lg:fixed lg:w-[40%] lg:h-screen lg:top-[3.25rem] lg:left-[-8px] lg:overflow-y-scroll lg:-translate-x-full lg:overflow-x-hidden lg:transition-all lg:delay-150 lg:duration-300 mlg:p-3 lg:z-20'>
+      <ul className='main-nav flex items-center text-[13px] ml-2 mr-[95px]  lg:block lg:text-white lg:bg-[#3490D9] lg:fixed lg:w-[60%] lg:h-screen lg:top-[3.25rem] lg:left-[-8px] lg:overflow-y-scroll lg:-translate-x-full lg:overflow-x-hidden lg:transition-all lg:delay-150 lg:duration-300 mlg:p-3 lg:z-20'>
 
         <div className={`${listItem} hidden lg:flex items-center  w-full text-white`}>
         <input type="text" placeholder='Search' className='placeholder-white bg-[#3490D9] cursor-auto w-full outline-none'/>

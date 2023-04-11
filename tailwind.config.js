@@ -10,9 +10,13 @@ module.exports = {
       'sm': {'max':'640px'},
 
       'md': {'max':'768px'},
+      'mmd':{'min':'769px'},
+      'vid':{'min':'900px'},
       // => @media (min-width: 768px) { ... }
 
+      'gridbp':{'max':'780px'},
       'lg': {'max':'1066px'},
+      //gridbp => grid breakpoint
       'mlg':{'min':'1024px'},
       // => @media (min-width: 1024px) { ... }
 
@@ -27,7 +31,6 @@ module.exports = {
   },},
   },
   variants:{
-    border: ['focus'],
   },
   plugins: [],
 }

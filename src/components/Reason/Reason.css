@@ -1,0 +1,45 @@
+
+
+@media (min-width:780px) {
+    
+    .gridStyles {
+    
+        display: grid;
+        /* display: none; */
+        grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+        /* grid-template-columns: repeat(300px,1fr); */
+        width: 900px;
+        grid-gap: 1rem;
+        margin: 1rem;
+    }
+}
+@media (max-width:780px) {
+    .slide {
+        animation-timing-function: linear;
+        animation-iteration-count: infinite!important;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: slidein;
+        white-space: nowrap;
+        margin-top: 34px;
+        display: flex;
+        animation: slidein 60s linear infinite;
+        overflow: none;
+        position: relative;
+
+      }
+      .slide:hover {
+        animation-play-state: paused;
+      }
+      
+      @keyframes slidein {
+        from {
+        right: 0%;
+        }
+      
+        to {
+          right:800%;
+        }
+      }
+}
